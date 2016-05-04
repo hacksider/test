@@ -2,8 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /var/www/myzler/public_html/
-
+    destination: /var/www/myzler/public_html/ken/
+  - source: /up.html
+    destination: /var/www/myzler/public_html/ken/
+	
 hooks:
   AfterInstall:
     - location: scripts/updatelinux.sh
